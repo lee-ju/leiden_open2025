@@ -5,13 +5,20 @@
 ## **1. 데이터 개요**
 - 본 테이블 리스트는 [OpenAlex Snapshot 데이터](https://openalex.s3.amazonaws.com/browse.html) (2026년 4월 14일 다운로드)를 파싱한 결과임
 - works 테이블 기준, **총 492,361,307건**의 논문이 존재함
-
 <br>
 
 ## **2. 테이블 리스트**
 - 총 9개의 테이블이 존재함
+- (1) cwts
+- (2) works
+- (3) works_abstract
+- (4) works_counts
+- (5) works_grants
+- (6) works_keywords
+- (7) works_referencedworks
+- (8) works_relatedworks
+- (9) works_topics
 
-### 2.1
 | No | Table | FIELD | DESCRIPTION |
 |---:|---|---|---|
 | 1 | cwts | oaid_w | OpenAlex ID for the work (unique identifier. Start with 'W'). |
@@ -125,3 +132,4 @@
 | 109 | works_topics | field | Display name of the field. |
 | 110 | works_topics | subfield_id | Identifier for the topic subfield. |
 | 111 | works_topics | subfield | Display name of the subfield. |
+<br>
