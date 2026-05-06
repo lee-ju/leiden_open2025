@@ -8,7 +8,7 @@
 - [Leiden CWTS Cluster (Open Edition) 2025](https://open.leidenranking.com/) 데이터와 [OpenAlex Snapshot 데이터](https://openalex.s3.amazonaws.com/browse.html) (2026년 4월 14일 다운로드)를 병합한 결과임
 - Leiden CWTS Cluster (Open Edition) 2025는 2006년부터 2023년 사이에 출판된 논문 **46,136,771건**(**=데이터A**)으로 구성되어 있으며, 총 [4,521개](https://open.leidenranking.com/information/fields)의 micro-level cluster 정보가 할당되어 있음
 - OpenAlex Snapshot을 가져와 파싱했으며, **총 492,361,307건**(**=데이터B**)"의 논문이 존재함
-- 아래 서술된 "**분석 데이터**"는 **데이터A**를 기준으로 [데이터B에서 분석에 필요한 정보](https://github.com/lee-ju/leiden_open2025/blob/main/TABLES.md)를 추출해서 병합한 결과임
+- 아래 서술된 "**분석 데이터**"는 **데이터A**를 기준으로 [데이터B에서 분석에 필요한 정보](https://github.com/lee-ju/leiden_open2025/blob/main/Table_List.md)를 추출해서 병합한 결과임
 <br>
 
 ## **2. 개발 환경**
