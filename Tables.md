@@ -1,18 +1,17 @@
-# 가상 미래에이전트 연구를 위한 데이터 설명
+# 테이블 리스트
 
 <p align="right">작성자: 이주현 (최종 편집일: 2026-5-6)</p>
 
 ## **1. 데이터 개요**
+- 본 테이블 리스트는 [OpenAlex Snapshot 데이터](https://openalex.s3.amazonaws.com/browse.html) (2026년 4월 14일 다운로드)를 파싱한 결과임
+- works 테이블 기준, **총 492,361,307건**의 논문이 존재함
 
-- 본 문서는 KISTI 에이전트응용연구센터에서 가상 미래에이전트 연구를 위해 필요한 데이터에 대한 해설 자료임
-- [Leiden CWTS Cluster (Open Edition) 2025](https://open.leidenranking.com/) 데이터와 [OpenAlex Snapshot 데이터](https://openalex.s3.amazonaws.com/browse.html) (2026년 4월 14일 다운로드)를 병합한 결과임
-- Leiden CWTS Cluster (Open Edition) 2025는 2006년부터 2023년 사이에 출판된 논문 **46,136,771건**(**=데이터A**)으로 구성되어 있으며, 총 [4,521개](https://open.leidenranking.com/information/fields)의 micro-level cluster 정보가 할당되어 있음
-- OpenAlex Snapshot을 가져와 파싱했으며, **총 492,361,307건**(**=데이터B**)"의 논문이 존재함
-- 아래 서술된 "**분석 데이터**"는 **데이터A**를 기준으로 데이터B에서 분석에 필요한 정보를 추출해서 병합한 결과임
 <br>
 
-## **2. 개발 환경**
+## **2. 테이블 리스트**
+- 총 9개의 테이블이 존재함
 
+### 2.1
 | No | Table | FIELD | DESCRIPTION |
 |---:|---|---|---|
 | 1 | cwts | oaid_w | OpenAlex ID for the work (unique identifier. Start with 'W'). |
