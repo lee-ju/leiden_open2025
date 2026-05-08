@@ -1,6 +1,6 @@
 # 가상 미래에이전트 연구를 위한 데이터 설명
 
-<p align="right">작성자: 이주현 (최종 편집일: 2026-5-6)</p>
+<p align="right">작성자: 이주현 (최종 편집일: 2026-5-9)</p>
 
 ## **1. 데이터 개요**
 
@@ -24,7 +24,7 @@
 - 파일 용량 관리 및 로딩 효율성을 위해 pickle이 아닌 [pyarrow.parquet](https://arrow.apache.org/docs/python/parquet.html)을 패키지를 활용해서 저장함
 - pyarrow.parquet은 파일 용량 관리에 효과적이며, 특정 컬럼만 지정해서 로딩할 수 있는 장점이 있음
 - 로딩에는 pandas.read_parquet을 사용하며, 이후 pandas.DataFrame과 동일한 방식으로 작업이 가능함
-- pyarrow.parquet으로 저장한 "biblio.pq" 파일을 불러오는 파이썬 코드는 아래와 같음
+- pyarrow.parquet으로 저장한 "leiden_open2025_biblio.pq" 파일을 불러오는 파이썬 코드는 아래와 같음
 
 ```python
 import pandas as pd
